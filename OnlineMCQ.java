@@ -18,7 +18,7 @@ class OnlineTest extends JFrame implements ActionListener {
 	JRadioButton radioButton[] = new JRadioButton[5];
 	JButton btnNext, btnBookmark;
 	ButtonGroup bg;
-	int count = 0, current = 0, x = 1, y = 1, now = 0;
+	int count = 0, questions = 0, x = 1, y = 1, now = 0;
 	int m[] = new int[10];
 
 	// create jFrame with radioButton and JButton
